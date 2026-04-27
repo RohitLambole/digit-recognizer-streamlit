@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 from PIL import Image, ImageOps
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 # Load model (cached so it doesn't reload every time)
 @st.cache_resource
